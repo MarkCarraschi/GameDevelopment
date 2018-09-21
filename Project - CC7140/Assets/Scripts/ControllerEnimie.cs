@@ -10,6 +10,9 @@ public class ControllerEnimie : MonoBehaviour {
     public float maxSpeed = 10f;
     bool facingRight = true;
 
+    //Animation references
+    Animator anim;
+
     //Flip funtion
     void Flip(){
         facingRight = !facingRight; //or facingRight == false
@@ -21,6 +24,7 @@ public class ControllerEnimie : MonoBehaviour {
 
 	void Start () {
         //rb.GetComponent<Rigidbody>();
+        anim = GetComponent<Animator>(); //Definition of component to start
 	}
 	
 	
@@ -28,6 +32,9 @@ public class ControllerEnimie : MonoBehaviour {
 
 
         float move = Input.GetAxis("Horizontal");
+
+        anim.SetFloat("Speed", Mathf.Abs(move));
+
         rb = GetComponent<Rigidbody2D>();
         //rb = gameObject.AddComponent<Rigidbody2D>() as Rigidbody2D;
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
