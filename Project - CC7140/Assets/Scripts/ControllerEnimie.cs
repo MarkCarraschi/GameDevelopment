@@ -30,13 +30,12 @@ public class ControllerEnimie : MonoBehaviour {
 	
 	void FixedUpdate () {
 
-
         float move = Input.GetAxis("Horizontal");
 
         anim.SetFloat("Speed", Mathf.Abs(move));
 
         rb = GetComponent<Rigidbody2D>();
-        //rb = gameObject.AddComponent<Rigidbody2D>() as Rigidbody2D;
+
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
 
         if (move > 0 && !facingRight)
