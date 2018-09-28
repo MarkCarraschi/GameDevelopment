@@ -10,13 +10,13 @@ namespace Assets.Scripts
         //Cord y = 4.010893
 
         
-        public float min = 0f;
+        public float min = -4.01f;
         public float max = 4.010893f;
 
         public float yCord; //log
 
         public void Start(){ //Positions of start 
-            min = transform.position.y;// - 1.85f;
+            min = transform.position.y - 2.05f;
             max = transform.position.y + 4.010893f;
         }
 
