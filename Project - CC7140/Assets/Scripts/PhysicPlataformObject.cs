@@ -15,6 +15,17 @@ namespace Assets.Scripts
 
         public float yCord; //log
 
+
+        void OnCollisionEnter(Collision collision){
+            GameObject otherObj = collision.gameObject;
+            Debug.Log("Collided with: " + otherObj);
+        }
+
+        void OnTriggerEnter(Collider collider){
+            GameObject otherObj = collider.gameObject;
+            Debug.Log("Triggered with: " + otherObj);
+        }
+        
         public void Start(){ //Positions of start 
             min = transform.position.y - 2.05f;
             max = transform.position.y + 4.010893f;
@@ -26,9 +37,11 @@ namespace Assets.Scripts
                     transform.position.z);
             yCord = Mathf.PingPong(Time.time * 3, max - min);
 
+            
+            
 
-            Debug.Log("MIN: " + min);
-            Debug.Log("\nMAX: " + max);
+            
+           
         }
 
 
