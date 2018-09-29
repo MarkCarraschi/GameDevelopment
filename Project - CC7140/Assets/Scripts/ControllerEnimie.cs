@@ -9,7 +9,7 @@ public class ControllerEnimie : MonoBehaviour {
     public GameObject Player;
     public float maxSpeed = 10f;
     bool facingRight = true;
-    int jumphash = Animator.StringToHash("Jump");
+
     //Animation references
     Animator anim;
 
@@ -21,15 +21,6 @@ public class ControllerEnimie : MonoBehaviour {
         transform.localScale = theScale;
     }
 
-    void JumpFunction(){
-
-        if (Input.GetKey(KeyCode.Space)){ //Press Space button to jump
-            transform.position = new Vector3(transform.position.x,
-                Mathf.PingPong(Time.time *2, 1), transform.position.z);
-            anim.SetTrigger(jumphash);
-        }
-
-    }
 
 	void Start () {
         //rb.GetComponent<Rigidbody>();
@@ -37,7 +28,7 @@ public class ControllerEnimie : MonoBehaviour {
 	}
 	
 	
-	void Update () {
+	void FixedUpdate () {
 
         float move = Input.GetAxis("Horizontal");
 
@@ -51,8 +42,5 @@ public class ControllerEnimie : MonoBehaviour {
             Flip();
         else if (move < 0 && facingRight)
             Flip();
-
-        //Another functions
-        JumpFunction();
 	}
 }
