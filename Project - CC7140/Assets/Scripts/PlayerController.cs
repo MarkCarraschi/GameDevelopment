@@ -13,24 +13,8 @@ public class PlayerController : MonoBehaviour {
     bool facingRight = true;
     bool grounded = true;
     float jumpPower = 5;
-    //int jumphash = Animator.StringToHash("Jump");
     Animator anim;
-
-    void OnCollisionEnter2D(Collision2D collision){
-        GameObject otherObj = collision.gameObject;
-        Debug.Log("Collided with: " + otherObj);
-    }
-
-    void OnCollisionStay2D(Collision2D collision){
-        GameObject otherObj = collision.gameObject;
-        Debug.Log("Collided stay in : " + otherObj);
-    }
-
-    void OnTriggerEnter2D(Collider2D collider){
-        GameObject otherObj = collider.gameObject;
-        Debug.Log("Triggered with: " + otherObj);
-    }
-
+        
     //Flip --> change orientation of character
     void Flip(){
         facingRight = !facingRight; //or facingRight == false
@@ -46,13 +30,14 @@ public class PlayerController : MonoBehaviour {
             //    Mathf.PingPong(Time.time *2, 1), transform.position.z);
             //anim.SetTrigger(jumphash);
             this.grounded = true;
-            //anim.SetBool("Jump", true);
+            //anim.SetTrigger("Jump");
             
         }
 
         if(Input.GetKey(KeyCode.Space) && ground){
             this.grounded = false;
             rb.AddForce(Vector3.up * 300);// transform.up*jumpPower);
+            anim.SetTrigger("Jump");
             Debug.Log("Valor: " + transform.up * jumpPower);
         }
 
@@ -60,8 +45,9 @@ public class PlayerController : MonoBehaviour {
 
 	void Start () {
         anim = GetComponent<Animator>(); //Definition of component to start
-	}
-	
+        //GameObject lifeG =    GameObject.Find("heart_3");
+        //lifeG.SetActive(false);
+    }
 	
 	void Update () {
 
@@ -71,8 +57,6 @@ public class PlayerController : MonoBehaviour {
         anim.SetFloat("Speed", Mathf.Abs(move));
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
-
-        Debug.Log("Valor do RB VELOCITY POR FRAME"+rb.velocity.y);
 
         if (move > 0 && !facingRight)
             Flip();

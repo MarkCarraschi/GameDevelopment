@@ -1,0 +1,444 @@
+fileFormatVersion: 2
+guid: 9ad2330e7d59042408c12e428d6a2e40
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: gypsy-001_0
+    21300002: gypsy-001_1
+    21300004: gypsy-001_2
+    21300006: gypsy-walk-001_3
+    21300008: gypsy-walk-002_4
+    21300010: gypsy-walk-003_3
+    21300012: gypsy-001_6
+    21300014: gypsy-001_7
+    21300016: gypsy-001_8
+    21300018: gypsy-001_9
+    21300020: gypsy-001_10
+    21300022: gypsy-001_11
+  externalObjects: {}
+  serializedVersion: 7
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 10
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: 1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - serializedVersion: 2
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+  - serializedVersion: 2
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: 12
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 1
+    androidETC2FallbackOverride: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: gypsy-001_0
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 192
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85a558f13574d834d851db576e4c7cd2
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_1
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 192
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4021fe5020b9da0448c2705d931d4cbc
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_2
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 192
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1434729fed4314a438e6ff4863c1eced
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-walk-001_3
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a4875b08e68648b77a286d5fc3da1
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-walk-002_4
+      rect:
+        serializedVersion: 2
+        x: 54
+        y: 128
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbfdb3c92d0882c468616050c4a5e824
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-walk-003_3
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 128
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02c7a5c5c954d89469da029e57e03dd6
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_6
+      rect:
+        serializedVersion: 2
+        x: 4
+        y: 64
+        width: 34
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 694d564e78236964fa1ff1de5b3487b4
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_7
+      rect:
+        serializedVersion: 2
+        x: 52
+        y: 64
+        width: 38
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c3dfb33b9bbd1844f8f0238b02cc2f81
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_8
+      rect:
+        serializedVersion: 2
+        x: 100
+        y: 64
+        width: 32
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 378190332a10526408cfafce51405125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_9
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c2d7aee2065dc5445a1381a86430ff99
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_10
+      rect:
+        serializedVersion: 2
+        x: 60
+        y: 0
+        width: 30
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4f7ecc91d5d39824d9b886d836de7c94
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: gypsy-001_11
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 0
+        width: 30
+        height: 50
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c40cb822ce6b5bf4f853defa7f75d9a7
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline:
+    - - {x: -59, y: -76}
+      - {x: -62, y: -81}
+      - {x: -62, y: -126}
+      - {x: -60, y: -128}
+      - {x: -38, y: -128}
+      - {x: -28, y: -125}
+      - {x: -28, y: -76}
+    - - {x: 9, y: -74}
+      - {x: -14, y: -74}
+      - {x: -14, y: -119}
+      - {x: -10, y: -128}
+      - {x: 12, y: -128}
+      - {x: 13, y: -124}
+      - {x: 20, y: -108}
+      - {x: 20, y: -90}
+    - - {x: 38, y: -76}
+      - {x: 34, y: -78}
+      - {x: 34, y: -127}
+      - {x: 38, y: -128}
+      - {x: 63, y: -128}
+      - {x: 68, y: -120}
+      - {x: 68, y: -87}
+      - {x: 61, y: -76}
+    - - {x: -57, y: -10}
+      - {x: -70, y: -30}
+      - {x: -70, y: -35}
+      - {x: -64, y: -58}
+      - {x: -54, y: -66}
+      - {x: -32, y: -66}
+      - {x: -32, y: -10}
+    - - {x: -18, y: -8}
+      - {x: -22, y: -24}
+      - {x: -22, y: -56}
+      - {x: -14, y: -66}
+      - {x: 16, y: -66}
+      - {x: 20, y: -64}
+      - {x: 20, y: -10}
+      - {x: 15, y: -8}
+    - - {x: 40, y: -10}
+      - {x: 26, y: -26}
+      - {x: 26, y: -45}
+      - {x: 33, y: -66}
+      - {x: 52, y: -66}
+      - {x: 62, y: -59}
+      - {x: 62, y: -17}
+      - {x: 56, y: -10}
+    - - {x: -55, y: 52}
+      - {x: -68, y: 38}
+      - {x: -68, y: 18}
+      - {x: -63, y: 1}
+      - {x: -61, y: -2}
+      - {x: -41, y: -2}
+      - {x: -34, y: 0}
+      - {x: -34, y: 51}
+      - {x: -39, y: 52}
+    - - {x: -11, y: 54}
+      - {x: -20, y: 44}
+      - {x: -20, y: 13}
+      - {x: -10, y: -2}
+      - {x: 11, y: -2}
+      - {x: 14, y: 1}
+      - {x: 14, y: 54}
+    - - {x: 39, y: 52}
+      - {x: 37, y: 48}
+      - {x: 28, y: 33}
+      - {x: 28, y: 21}
+      - {x: 35, y: -2}
+      - {x: 62, y: -2}
+      - {x: 62, y: 51}
+      - {x: 57, y: 52}
+    - - {x: -61, y: 118}
+      - {x: -64, y: 114}
+      - {x: -64, y: 70}
+      - {x: -59, y: 62}
+      - {x: -26, y: 62}
+      - {x: -26, y: 118}
+    - - {x: -11, y: 120}
+      - {x: -20, y: 101}
+      - {x: -20, y: 69}
+      - {x: -15, y: 62}
+      - {x: 14, y: 62}
+      - {x: 22, y: 75}
+      - {x: 22, y: 97}
+      - {x: 13, y: 120}
+    - - {x: 59, y: 118}
+      - {x: 36, y: 118}
+      - {x: 32, y: 102}
+      - {x: 32, y: 73}
+      - {x: 37, y: 62}
+      - {x: 58, y: 62}
+      - {x: 70, y: 84}
+      - {x: 70, y: 104}
+      - {x: 63, y: 117}
+    physicsShape: []
+    bones: []
+    spriteID: 4356b88642a384442a8e9bf3f5a3918b
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
