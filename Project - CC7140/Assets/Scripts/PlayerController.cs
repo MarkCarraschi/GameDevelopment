@@ -2,6 +2,8 @@
 using System.Collections.Generic;
 using UnityEngine;
 
+using Assets.Scripts;
+
 public class PlayerController : MonoBehaviour {
 
     //Components
@@ -14,7 +16,25 @@ public class PlayerController : MonoBehaviour {
     bool grounded = true;
     float jumpPower = 5;
     Animator anim;
+
+    PlayerHealth healtCharacter = new PlayerHealth();
+    int damageSpike = 1;
+
+    private void OnCollisionEnter2D(Collision2D collision){
         
+        if (collision.gameObject.CompareTag("Spike")){
+            DamageCalculation(damageSpike);
+            Debug.Log("SPIKE DAMAGE");
+        }
+
+        if (collision.gameObject.CompareTag("Coin")){
+            ScorePlayer.scorePoints += 1;
+            Destroy(collision.gameObject);
+            Debug.Log("SCORE POINT");
+        }
+    }
+
+
     //Flip --> change orientation of character
     void Flip(){
         facingRight = !facingRight; //or facingRight == false
@@ -38,9 +58,13 @@ public class PlayerController : MonoBehaviour {
             this.grounded = false;
             rb.AddForce(Vector3.up * 300);// transform.up*jumpPower);
             anim.SetTrigger("Jump");
-            Debug.Log("Valor: " + transform.up * jumpPower);
+            //Debug.Log("Valor: " + transform.up * jumpPower);
         }
 
+    }
+
+    public void DamageCalculation(int damage){
+        PlayerHealth.health -= 1;
     }
 
 	void Start () {

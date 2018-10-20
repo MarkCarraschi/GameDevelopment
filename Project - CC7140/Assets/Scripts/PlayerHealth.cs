@@ -9,7 +9,7 @@ using System.Collections;
 
 namespace Assets.Scripts
 {
-    class PlayerHealth : MonoBehaviour{
+    public class PlayerHealth : MonoBehaviour{
 
         public static int health = 3; // Initial life
         public int numOfHearts;
@@ -18,13 +18,11 @@ namespace Assets.Scripts
         public Sprite fullHeart;
         public Sprite emptyHeart;
 
-        private void OnTriggerEnter2D(Collider2D collision){
-            if (collision.tag == "spike_c")
-                Debug.Log("FODASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSE");
-        }
-
-        private void Start(){
+        private void Awake(){
+            //fullHeart = GetComponent<Sprite>();
+            //emptyHeart = GetComponent<Sprite>();
                         
+            //health = 3;
         }
 
         private void Update(){
@@ -40,5 +38,10 @@ namespace Assets.Scripts
                 else hearts[i].enabled = false;
             }              
         }
+
+        public void setHealthDamage(int damage){
+            health = health - damage;
+        }
+
     }
 }
