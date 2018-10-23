@@ -21,8 +21,8 @@ namespace Assets.Scripts
         private void Awake(){
             //fullHeart = GetComponent<Sprite>();
             //emptyHeart = GetComponent<Sprite>();
-                        
-            //health = 3;
+
+            health = 3;
         }
 
         private void Update(){

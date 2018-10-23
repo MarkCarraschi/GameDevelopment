@@ -1,33 +1,9 @@
 fileFormatVersion: 2
 guid: fd4d6fe9efaae5e4eaf33aa14b7adcc9
 TextureImporter:
-  fileIDToRecycleName:
-    21300000: GBP_6x4_0
-    21300002: GBP_6x4_1
-    21300004: GBP_6x4_2
-    21300006: GBP_6x4_3
-    21300008: GBP_6x4_4
-    21300010: GBP_6x4_5
-    21300012: GBP_6x4_6
-    21300014: GBP_6x4_7
-    21300016: GBP_6x4_8
-    21300018: GBP_6x4_9
-    21300020: GBP_6x4_10
-    21300022: GBP_6x4_11
-    21300024: GBP_6x4_12
-    21300026: GBP_6x4_13
-    21300028: GBP_6x4_14
-    21300030: GBP_6x4_15
-    21300032: GBP_6x4_16
-    21300034: GBP_6x4_17
-    21300036: GBP_6x4_18
-    21300038: GBP_6x4_19
-    21300040: GBP_6x4_20
-    21300042: GBP_6x4_21
-    21300044: GBP_6x4_22
-    21300046: GBP_6x4_23
+  fileIDToRecycleName: {}
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,8 +21,6 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,7 +31,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: 1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,21 +43,18 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -92,7 +63,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,12 +80,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 4a83c70059dd01f4f9117e7ec3c2962f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_1
       rect:
@@ -130,12 +94,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: ad7d6d00844de3b41b17f8c4ff5c06e8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_2
       rect:
@@ -150,12 +108,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 6ea327d8ee9496a448a259d678265dde
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_3
       rect:
@@ -170,12 +122,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 9e6459d141bf4a147bcdee25858e0db9
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_4
       rect:
@@ -190,12 +136,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 174392919f2b41e418d37589101afbfd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_5
       rect:
@@ -210,12 +150,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c0c80a8f9b1f72e498cdfa802857610b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_6
       rect:
@@ -230,12 +164,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 2eec087cd5edde048a44ad7d3d602959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_7
       rect:
@@ -250,12 +178,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 230ada8b7296a7c478d1280e2905eb12
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_8
       rect:
@@ -270,12 +192,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: b4ca8842df4fd22458dda825a3fe7428
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_9
       rect:
@@ -290,12 +206,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 69bcaf45c6a01604b807b9036a95a037
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_10
       rect:
@@ -310,12 +220,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: db50a0b88847b824284e963315d22f45
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_11
       rect:
@@ -330,12 +234,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: e21fd96f8353a8543a5e9148eae85ca3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_12
       rect:
@@ -350,12 +248,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 9d5213c690fd4c247ba590170e9384ec
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_13
       rect:
@@ -370,12 +262,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: efa2b10c614721347a4c1d47e4d764b6
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_14
       rect:
@@ -390,12 +276,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: d8b87e921d6ef394e888b796c7571743
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_15
       rect:
@@ -410,12 +290,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: b36d2074a83aa0a46870a47c5854d6c7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_16
       rect:
@@ -430,12 +304,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 4fd5d430e99125b418e7feae71c58ffc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_17
       rect:
@@ -450,12 +318,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 068ec576bb931ed45812b052ca2f6dea
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_18
       rect:
@@ -470,12 +332,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 54af89592c7d7c04aa0340be3b19b029
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_19
       rect:
@@ -490,12 +346,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 74aa3ecb66ffadd44a0c6afe053ad85a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_20
       rect:
@@ -510,12 +360,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: adc3533335880e9458acf40276689d22
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_21
       rect:
@@ -530,12 +374,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 7206f6b1b36d7ea4ab52749109977da7
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_22
       rect:
@@ -550,12 +388,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 5715b516286a2514eb2a74157ae13a75
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: GBP_6x4_23
       rect:
@@ -570,23 +402,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: a8fe7bdbb42a159489d870642d1220ed
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
