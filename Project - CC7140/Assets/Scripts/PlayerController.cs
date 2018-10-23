@@ -23,13 +23,15 @@ public class PlayerController : MonoBehaviour {
     private void OnCollisionEnter2D(Collision2D collision){
         
         if (collision.gameObject.CompareTag("Spike")){
-            DamageCalculation(damageSpike);
+            //DamageCalculation(damageSpike);
+            anim.SetBool("Death",true);
             Debug.Log("SPIKE DAMAGE");
         }
 
         if (collision.gameObject.CompareTag("Coin")){
             ScorePlayer.scorePoints += 1;
-            Destroy(collision.gameObject);
+            //Destroy(collision.gameObject);
+            anim.SetTrigger("Death");
             Debug.Log("SCORE POINT");
         }
     }
@@ -67,6 +69,11 @@ public class PlayerController : MonoBehaviour {
         PlayerHealth.health -= 1;
     }
 
+    void DeathPlayer(){
+        anim.SetTrigger("Death");
+        Destroy(Player);
+    }
+
 	void Start () {
         anim = GetComponent<Animator>(); //Definition of component to start
         //GameObject lifeG =    GameObject.Find("heart_3");
@@ -81,7 +88,9 @@ public class PlayerController : MonoBehaviour {
         anim.SetFloat("Speed", Mathf.Abs(move));
         rb = GetComponent<Rigidbody2D>();
         rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
+        
 
+        
         if (move > 0 && !facingRight)
             Flip();
         else if (move < 0 && facingRight)
