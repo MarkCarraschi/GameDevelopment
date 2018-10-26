@@ -58,7 +58,7 @@ public class EnemyController : MonoBehaviour{
             Mathf.PingPong(Time.time, platform.size.x),
             transform.position.y,
             transform.position.z);
-        Debug.Log("Valor box X: " + platform.size.x);
+        //Debug.Log("Valor box X: " + platform.size.x);
         anim.SetFloat("Speed", Mathf.Abs(platform.size.x));
         
         if (transform.position.x < 1 || transform.position.x > 6){

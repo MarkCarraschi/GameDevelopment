@@ -16,11 +16,11 @@ namespace Assets.Scripts.ObjectsScene
         public int maxPlatform = 20;
         public GameObject platform;
         public float horizontalMin = 7.5f;
-        public float horizontalMax = 14f;
+        public float horizontalMax = 2f;
         public float verticalMin = 6f;
         public float verticalMax = 6;
 
-        private Vector2 originPosition;
+        private Vector3 originPosition;
 
         void Start(){
             originPosition = transform.position;
@@ -29,9 +29,18 @@ namespace Assets.Scripts.ObjectsScene
 
         void Spawn(){
             for(int i = 0; i < maxPlatform; i++){
-                Vector2 randomPosition = originPosition +
-                    new Vector2(UnityEngine.Random.Range(horizontalMin, horizontalMax),
-                                UnityEngine.Random.Range(verticalMin, verticalMax));
+                //Vector3 randomPosition = originPosition +
+                //    new Vector3(UnityEngine.Random.Range(horizontalMin, horizontalMax),
+                //                UnityEngine.Random.Range(verticalMin, verticalMax),10);
+                //Instantiate(platform, randomPosition, Quaternion.identity);
+
+                Vector3 randomPosition = originPosition +
+                    new Vector3(UnityEngine.Random.Range(horizontalMin, horizontalMax),
+                                -1.43f, 10);
+                Instantiate(platform, randomPosition, Quaternion.identity);
+
+                originPosition = randomPosition;
+              
             }
         }
 

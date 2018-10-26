@@ -87,7 +87,7 @@ public class PlayerController : MonoBehaviour {
 
         anim.SetFloat("Speed", Mathf.Abs(move));
         rb = GetComponent<Rigidbody2D>();
-        rb.velocity = new Vector2(move * maxSpeed, rb.velocity.y);
+        rb.velocity = new Vector3(move * maxSpeed, rb.velocity.y,1);
         
 
         
