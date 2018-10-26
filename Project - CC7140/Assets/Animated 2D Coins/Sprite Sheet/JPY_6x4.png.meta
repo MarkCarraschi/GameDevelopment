@@ -27,7 +27,7 @@ TextureImporter:
     21300044: JPY_6x4_22
     21300046: JPY_6x4_23
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,8 +45,6 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,7 +55,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: 1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,21 +67,18 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -92,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,12 +104,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 5fe70611e8b522041a4e4784da3344b1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_1
       rect:
@@ -130,12 +118,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 74b74e21961c3534cb6f3919a4d4679a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_2
       rect:
@@ -150,12 +132,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 078141c6eedeceb49bba7e6ae0fe72ac
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_3
       rect:
@@ -170,12 +146,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: ed299a4684abd824eb48d5c65e73145a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_4
       rect:
@@ -190,12 +160,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: ea67647da14c7364887ffa8fbd836088
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_5
       rect:
@@ -210,12 +174,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: fb71513d7eb128047b4202900e5637fd
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_6
       rect:
@@ -230,12 +188,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 17bccde739f4aa14eb0868617c484cb5
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_7
       rect:
@@ -250,12 +202,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: aa4fe3b618ba34642b42ae933d583c42
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_8
       rect:
@@ -270,12 +216,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 1a460337716b31f4d8b1c7593861fde1
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_9
       rect:
@@ -290,12 +230,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 7b6cdbdeb91f2e34a99086356aa8fa75
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_10
       rect:
@@ -310,12 +244,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 0b88da68fb2fedd4f8c7eb531493282b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_11
       rect:
@@ -330,12 +258,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 7f8dd18a4347efb489aa04c536a5efc8
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_12
       rect:
@@ -350,12 +272,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 49ccf8c2fda092a45ba7a6c71a43819e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_13
       rect:
@@ -370,12 +286,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 47b335b4d4c4a75409f2d9e0fefd864a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_14
       rect:
@@ -390,12 +300,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: a7e20ef5d9e12604182922b6ab970578
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_15
       rect:
@@ -410,12 +314,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 1d522aa44ac86284da71b82512386402
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_16
       rect:
@@ -430,12 +328,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 1e5abf080619a2a46ad15116b33d0218
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_17
       rect:
@@ -450,12 +342,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 5e794b0dd5c0de04ab20bdedbc0f1755
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_18
       rect:
@@ -470,12 +356,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 50b50b74783d5e24088c9e074deb81e4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_19
       rect:
@@ -490,12 +370,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 79bf8f174f1e1744aae278fb0a7aeaa4
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_20
       rect:
@@ -510,12 +384,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: cb659493e3cab8f4480b3e8b377f4815
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_21
       rect:
@@ -530,12 +398,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 44a4a513293524c4c94f930719bcc25a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_22
       rect:
@@ -550,12 +412,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 8cf9bd27b9fbc334d8d0b0f11397b8d0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: JPY_6x4_23
       rect:
@@ -570,23 +426,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c6d9428535d594649b0abf0c1df02bdf
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 

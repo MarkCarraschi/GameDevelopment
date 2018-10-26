@@ -27,7 +27,7 @@ TextureImporter:
     21300044: UAH_6x4_22
     21300046: UAH_6x4_23
   externalObjects: {}
-  serializedVersion: 7
+  serializedVersion: 4
   mipmaps:
     mipMapMode: 0
     enableMipMap: 0
@@ -45,8 +45,6 @@ TextureImporter:
     heightScale: 0.25
     normalMapFilter: 0
   isReadable: 0
-  streamingMipmaps: 0
-  streamingMipmapsPriority: 0
   grayScaleToAlpha: 0
   generateCubemap: 6
   cubemapConvolution: 0
@@ -57,7 +55,7 @@ TextureImporter:
     serializedVersion: 2
     filterMode: -1
     aniso: 1
-    mipBias: -100
+    mipBias: -1
     wrapU: 1
     wrapV: 1
     wrapW: 1
@@ -69,21 +67,18 @@ TextureImporter:
   spriteMeshType: 1
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
-  spritePixelsToUnits: 100
   spriteBorder: {x: 0, y: 0, z: 0, w: 0}
-  spriteGenerateFallbackPhysicsShape: 1
+  spritePixelsToUnits: 100
   alphaUsage: 1
   alphaIsTransparency: 1
   spriteTessellationDetail: -1
   textureType: 8
   textureShape: 1
-  singleChannelComponent: 0
   maxTextureSizeSet: 0
   compressionQualitySet: 0
   textureFormatSet: 0
   platformSettings:
-  - serializedVersion: 2
-    buildTarget: DefaultTexturePlatform
+  - buildTarget: DefaultTexturePlatform
     maxTextureSize: 1024
     resizeAlgorithm: 0
     textureFormat: -1
@@ -92,7 +87,6 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
-    androidETC2FallbackOverride: 0
   spriteSheet:
     serializedVersion: 2
     sprites:
@@ -110,12 +104,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 07d4381fda83b5a43bd5d870ea137f9b
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_1
       rect:
@@ -130,12 +118,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 665128be4d52141439d8e6d917cf7963
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_2
       rect:
@@ -150,12 +132,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 248f29ac3f069c748ae1a684c08cac4c
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_3
       rect:
@@ -170,12 +146,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 0b38d9c16567b0241a2e6d88b0ae9f4d
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_4
       rect:
@@ -190,12 +160,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: d5e71d1bab699fb4c97a84d2d84b1d30
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_5
       rect:
@@ -210,12 +174,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: cdbf68f864b8ae940bd9ea65ae352259
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_6
       rect:
@@ -230,12 +188,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 3331170caabdc9c46bc64461e3ebe2d2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_7
       rect:
@@ -250,12 +202,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c37d986c26db1bb48aceb3c504eb1560
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_8
       rect:
@@ -270,12 +216,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 59698eea048c2e44bb1fc07a90346e25
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_9
       rect:
@@ -290,12 +230,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c5c5e37eb07c6fe4d8ac78d18ce718e0
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_10
       rect:
@@ -310,12 +244,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 9492123dd2a8ada4ba2fdf50c746489f
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_11
       rect:
@@ -330,12 +258,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 18b9073a212c90a428ab89b6c7da4a69
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_12
       rect:
@@ -350,12 +272,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: a5373bf620b1c804282cb36b2d5df1fb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_13
       rect:
@@ -370,12 +286,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 79711b8bfb8726e40a3018abf3add6cc
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_14
       rect:
@@ -390,12 +300,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 539a242dc9ed275468203a8f6230f9cb
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_15
       rect:
@@ -410,12 +314,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 3823b978adbc4a64098f7b0f9e4d4167
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_16
       rect:
@@ -430,12 +328,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: a18ae729a3178d34ba2bbbad9bc4f8e3
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_17
       rect:
@@ -450,12 +342,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c76c648be7b36c84b89784335f4454c2
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_18
       rect:
@@ -470,12 +356,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 23a7cefa54df0234eaba584cac7afb84
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_19
       rect:
@@ -490,12 +370,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: d47013e8e79d2654484f4d631a27ed5a
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_20
       rect:
@@ -510,12 +384,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 466fdcb47deb3a24faeda09b9c005c72
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_21
       rect:
@@ -530,12 +398,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: 54b283474a1c3fe4fab5117a76ab307e
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_22
       rect:
@@ -550,12 +412,6 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: fa21fed4580cd2e4fb1d1bd32fa76a80
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     - serializedVersion: 2
       name: UAH_6x4_23
       rect:
@@ -570,23 +426,9 @@ TextureImporter:
       outline: []
       physicsShape: []
       tessellationDetail: -1
-      bones: []
-      spriteID: c30a963258865de458e0bf6855d33a81
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
     outline: []
     physicsShape: []
-    bones: []
-    spriteID: 
-    vertices: []
-    indices: 
-    edges: []
-    weights: []
   spritePackingTag: 
-  pSDRemoveMatte: 0
-  pSDShowRemoveMatteOption: 0
   userData: 
   assetBundleName: 
   assetBundleVariant: 
