@@ -83,7 +83,7 @@ public class PlayerController : MonoBehaviour {
 	void Update () {
 
         float move = Input.GetAxis("Horizontal");
-        anim.SetBool("Jump", false);
+        //anim.SetBool("Jump", false);
 
         anim.SetFloat("Speed", Mathf.Abs(move));
         rb = GetComponent<Rigidbody2D>();

@@ -222,9 +222,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enimie\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Enimie\PatrolEnemy.cs" />
-    <Compile Include="Assets\Scripts\PlatformScene\CollisionObjects.cs" />
+    <Compile Include="Assets\Scripts\Enemy\EnemyController.cs" />
+    <Compile Include="Assets\Scripts\Enemy\ControlEnemy.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\PhysicPlataformObject.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\SpawnPlatforms.cs" />
     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
