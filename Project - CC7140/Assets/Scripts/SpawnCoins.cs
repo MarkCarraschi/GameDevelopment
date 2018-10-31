@@ -23,7 +23,8 @@ namespace Assets.Scripts
         void Spawn(){
 
             for(int i = 0; i < coinSpawns.Length; i++){
-                int coinFlip = UnityEngine.Random.Range(0, 2);
+                //int coinFlip = UnityEngine.Random.Range(0, 2);
+                int coinFlip = 2; // Quantitie of coins
                     if(coinFlip > 0){
                         Instantiate(coin, coinSpawns[i].position, Quaternion.identity);
                     }

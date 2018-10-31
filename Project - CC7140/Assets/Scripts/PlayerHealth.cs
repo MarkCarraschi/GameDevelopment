@@ -6,6 +6,7 @@ using System.Text;
 using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -36,7 +37,12 @@ namespace Assets.Scripts
 
                 if (i < numOfHearts) hearts[i].enabled = true;
                 else hearts[i].enabled = false;
-            }              
+            }           
+            
+            if(health == 0)
+            {
+                SceneManager.LoadScene(2);
+            }
         }
 
         public void setHealthDamage(int damage){

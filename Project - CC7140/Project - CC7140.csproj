@@ -223,13 +223,16 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Assets\Scripts\Enimie\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Enimie\PatrolEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enimie\ControlEnemy.cs" />
+    <Compile Include="Assets\Scripts\GameOver.cs" />
+    <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\CollisionObjects.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\PhysicPlataformObject.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\SpawnPlatforms.cs" />
     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
+    <Compile Include="Assets\Scripts\Ranking.cs" />
     <Compile Include="Assets\Scripts\ScorePlayer.cs" />
     <Compile Include="Assets\Scripts\SpawnCoins.cs" />
   </ItemGroup>

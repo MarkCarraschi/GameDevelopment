@@ -32,7 +32,7 @@ public class PlayerController : MonoBehaviour {
             ScorePlayer.scorePoints += 1;
             Destroy(collision.gameObject);
             //anim.SetTrigger("Death");
-            Debug.Log("SCORE POINT");
+            Debug.Log("SCORE POINT: "+ScorePlayer.scorePoints);
         }
     }
 
