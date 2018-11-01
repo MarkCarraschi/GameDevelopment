@@ -235,6 +235,7 @@
     <Compile Include="Assets\Scripts\Ranking.cs" />
     <Compile Include="Assets\Scripts\ScorePlayer.cs" />
     <Compile Include="Assets\Scripts\SpawnCoins.cs" />
+    <Compile Include="Assets\Scripts\Spawn\SpawnManager.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hearts\PNG\health_bar\info.txt" />
