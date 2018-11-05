@@ -23,6 +23,7 @@ namespace Assets.Scripts.ObjectsScene
         public GameObject SkyPrefab;
         public GameObject CoinPrefab;
         public GameObject CoinPrefabDogTransform;
+        public GameObject EndPhase;
 
         public float horizontalMin = 30.5991f;
         public float horizontalMax = 30.5992f;
@@ -42,8 +43,14 @@ namespace Assets.Scripts.ObjectsScene
             originPositionPlataform = platformObject.transform.position;
             originPositionSky = SkyPrefab.transform.position;
             originPositionMountain = MountainPrefab.transform.position;
+
+            //Coins
             originPositionCoinDog = CoinPrefabDogTransform.transform.position;
             originPositionCoin = CoinPrefab.transform.position;
+
+            //Hide GameObject
+            EndPhase.GetComponent<Renderer>().enabled = false;
+
             Spawn();
         }
 
@@ -65,40 +72,57 @@ namespace Assets.Scripts.ObjectsScene
 
                 if (i % 3 == 0){
 
-                    Debug.Log("\nOrigin Position SPIKE: i[" + i +"]: "+ originPosition);
                     Vector3 randomPosition = originPosition
                         + new Vector3(7.0f, 0, 0);
                     Instantiate(platformSpike, randomPosition, Quaternion.identity);
                     originPosition = randomPosition;
-                    Debug.Log("\nRandom Position SPIKE: i[" + i + "]: " + randomPosition);
+                                     
                 }
                 else if (i % 5 == 0 ){
-                    Debug.Log("\nOrigin Position Dog: i[" + i + "]: " + originPosition);
+                    //Debug.Log("\nOrigin Position Dog: i[" + i + "]: " + originPosition);
                     Vector3 randomPosition = originPosition
                         + new Vector3(7.0f, 0, 0);
                     Instantiate(DogAndPlatform, randomPosition, Quaternion.identity);
                     originPosition = randomPosition;
-                    Debug.Log("\nRandom Position Dog: i[" + i + "]: " + randomPosition);
+                    //Debug.Log("\nRandom Position Dog: i[" + i + "]: " + randomPosition);
 
                     //Prefab System Coin
-                    Vector3 randomPositionCoin = originPositionCoin
-                        + new Vector3(7.0f, 0, 0);
-                    Instantiate(CoinPrefab, randomPositionCoin, Quaternion.identity);
-                    originPositionCoin = randomPositionCoin;
+                    //Vector3 randomPositionCoin = originPositionCoin
+                    //    + new Vector3(7.0f, 0, 0);
+                    //Instantiate(CoinPrefab, randomPositionCoin, Quaternion.identity);
+                    //originPositionCoin = randomPositionCoin;
 
                     //Prefab Coins on Dog Platform
                     Vector3 randomPositionCoinDog = originPositionCoinDog
                         + new Vector3(7.0f, 0, 0);
+                    Debug.Log("Valor do originPositionCoinDog: " + originPositionCoinDog);
                     Instantiate(CoinPrefabDogTransform, randomPositionCoinDog, Quaternion.identity);
                     originPositionCoinDog = randomPositionCoinDog;
+                    Debug.Log("Valor do randomPositionCoinDog: " + randomPositionCoinDog);
                 }
                 else{
-                    Debug.Log("\nOrigin Position Object : i[" + i + "]: " + originPosition);
+                    
                     Vector3 randomPosition = originPosition +
                     new Vector3(7.0f, 0, 0);
                     Instantiate(platformObject, randomPosition, Quaternion.identity);
                     originPosition = randomPosition;
-                    Debug.Log("\nRandom Position Object : i[" + i + "]: " + randomPosition);
+
+                    Vector3 randomPositionCoinDog = originPositionCoinDog
+                       + new Vector3(7.0f, 0, 0);
+                    Debug.Log("Valor do originPositionCoinDog: " + originPositionCoinDog);
+                    Instantiate(CoinPrefabDogTransform, randomPositionCoinDog, Quaternion.identity);
+                    originPositionCoinDog = randomPositionCoinDog;
+                    Debug.Log("Valor do randomPositionCoinDog: " + randomPositionCoinDog);
+
+                    //Debug.Log("ELSE");
+
+                    if(i == 13){
+
+                        Vector3 positionCrystal = new Vector3(76.88f,-0.14f,1);
+                        Instantiate(EndPhase, positionCrystal , Quaternion.identity);
+                        EndPhase.GetComponent<Renderer>().enabled = true;
+                    }
+
                 }
             }
         }
