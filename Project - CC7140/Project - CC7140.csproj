@@ -13,14 +13,12 @@
     <TargetFrameworkIdentifier>.NETFramework</TargetFrameworkIdentifier>
     <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
     <TargetFrameworkProfile>Unity Subset v3.5</TargetFrameworkProfile>
-    <CompilerResponseFile>
-    </CompilerResponseFile>
+    <CompilerResponseFile></CompilerResponseFile>
     <UnityProjectGenerator>VSTU</UnityProjectGenerator>
     <UnityProjectType>Game:1</UnityProjectType>
     <UnityBuildTarget>StandaloneWindows64:19</UnityBuildTarget>
     <UnityVersion>2017.2.4f1</UnityVersion>
-    <RootNamespace>
-    </RootNamespace>
+    <RootNamespace></RootNamespace>
     <LangVersion>4</LangVersion>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
@@ -222,8 +220,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Assets\Scripts\Enimie\EnemyController.cs" />
     <Compile Include="Assets\Scripts\Enimie\ControlEnemy.cs" />
+    <Compile Include="Assets\Scripts\Enimie\EnemyController.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\CollisionObjects.cs" />
@@ -234,8 +232,8 @@
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Ranking.cs" />
     <Compile Include="Assets\Scripts\ScorePlayer.cs" />
-    <Compile Include="Assets\Scripts\SpawnCoins.cs" />
     <Compile Include="Assets\Scripts\Spawn\SpawnManager.cs" />
+    <Compile Include="Assets\Scripts\SpawnCoins.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\Hearts\PNG\health_bar\info.txt" />
