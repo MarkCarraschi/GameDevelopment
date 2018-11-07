@@ -7,6 +7,8 @@ using UnityEngine;
 using UnityEngine.UI;
 using System.Collections;
 using UnityEngine.SceneManagement;
+using Assets.Scripts;
+using UnityEngine.SceneManagement;
 
 namespace Assets.Scripts
 {
@@ -19,10 +21,9 @@ namespace Assets.Scripts
         public Sprite fullHeart;
         public Sprite emptyHeart;
 
-        private void Awake(){
-            //fullHeart = GetComponent<Sprite>();
-            //emptyHeart = GetComponent<Sprite>();
+        RankingPlayer scrPlayer = new RankingPlayer();
 
+        private void Awake(){
             health = 3;
         }
 
@@ -39,8 +40,8 @@ namespace Assets.Scripts
                 else hearts[i].enabled = false;
             }           
             
-            if(health == 0)
-            {
+            if(health == 0){
+                scrPlayer.SaveHighScore("NAME",1);
                 SceneManager.LoadScene(2);
             }
         }

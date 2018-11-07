@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 using Assets.Scripts;
+using UnityEngine.SceneManagement;
 
 public class PlayerController : MonoBehaviour {
 
@@ -20,23 +21,31 @@ public class PlayerController : MonoBehaviour {
     PlayerHealth healtCharacter = new PlayerHealth();
     int damageSpike = 1;
 
-    private void OnCollisionEnter2D(Collision2D collision){
-        
-        if (collision.gameObject.CompareTag("Spike")){
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+
+        if (collision.gameObject.CompareTag("Spike"))
+        {
             DamageCalculation(damageSpike);
-            anim.SetBool("Death",true);
+            anim.SetBool("Death", true);
             Debug.Log("SPIKE DAMAGE");
         }
 
-        if (collision.gameObject.CompareTag("Coin")){
+        if (collision.gameObject.CompareTag("Coin"))
+        {
             ScorePlayer.scorePoints += 1;
             Destroy(collision.gameObject);
             //anim.SetTrigger("Death");
-            Debug.Log("SCORE POINT: "+ScorePlayer.scorePoints);
+            Debug.Log("SCORE POINT: " + ScorePlayer.scorePoints);
         }
+
+        if (collision.gameObject.CompareTag("Cristal"))
+        {
+
+            SceneManager.LoadScene(4);
+        }
+
     }
-
-
     //Flip --> change orientation of character
     void Flip(){
         facingRight = !facingRight; //or facingRight == false

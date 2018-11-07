@@ -61,8 +61,8 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\Scripts\Enimie\ControlEnemy.cs" />
     <Compile Include="Assets\Scripts\Enimie\EnemyController.cs" />
-    <Compile Include="Assets\Scripts\Enimie\PatrolEnemy.cs" />
     <Compile Include="Assets\Scripts\GameOver.cs" />
     <Compile Include="Assets\Scripts\Menu.cs" />
     <Compile Include="Assets\Scripts\PlatformScene\CollisionObjects.cs" />
@@ -73,19 +73,20 @@
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
     <Compile Include="Assets\Scripts\Ranking.cs" />
     <Compile Include="Assets\Scripts\ScorePlayer.cs" />
+    <Compile Include="Assets\Scripts\Spawn\SpawnManager.cs" />
     <Compile Include="Assets\Scripts\SpawnCoins.cs" />
     <None Include="Assets\Hearts\PNG\health_bar\info.txt" />
     <Reference Include="UnityEditor.StandardEvents">
-      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v3/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
+      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v6/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/UnityEditor.StandardEvents.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro.Editor">
-      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v3/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
+      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v6/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.TextMeshPro.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.PackageManagerUI.Editor">
-      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v3/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
+      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v6/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.PackageManagerUI.Editor.dll</HintPath>
     </Reference>
     <Reference Include="Unity.TextMeshPro">
-      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v3/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
+      <HintPath>C:/Users/tiagopp/Desktop/nova_branch/v6/GameDevelopment/Project - CC7140/Library/ScriptAssemblies/Unity.TextMeshPro.dll</HintPath>
     </Reference>
     <Reference Include="UnityEngine.AIModule">
       <HintPath>C:/Program Files/Unity/Editor/Data/Managed/UnityEngine/UnityEngine.AIModule.dll</HintPath>

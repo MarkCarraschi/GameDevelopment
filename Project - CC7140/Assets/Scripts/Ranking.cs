@@ -12,8 +12,7 @@ public class Ranking : MonoBehaviour {
     public string ValInput;
     Text text;
 
-    private void ExportRK(int tm, string[] names, int[] scores)
-    {
+    private void ExportRK(int tm, string[] names, int[] scores){
         StreamWriter writer = new StreamWriter("Save.txt", true);
 
         using (writer)
