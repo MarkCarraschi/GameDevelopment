@@ -17,8 +17,10 @@ public class PlayerController : MonoBehaviour {
     bool grounded = true;
     float jumpPower = 5;
     Animator anim;
+    public string namePerson = ""; 
 
     PlayerHealth healtCharacter = new PlayerHealth();
+    RankingPlayer rankingPlayer = new RankingPlayer();
     int damageSpike = 1;
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -39,10 +41,10 @@ public class PlayerController : MonoBehaviour {
             Debug.Log("SCORE POINT: " + ScorePlayer.scorePoints);
         }
 
-        if (collision.gameObject.CompareTag("Cristal"))
-        {
-
+        if (collision.gameObject.CompareTag("Cristal")) { 
+            rankingPlayer.EndScore(namePerson,ScorePlayer.scorePoints);
             SceneManager.LoadScene(4);
+
         }
 
     }

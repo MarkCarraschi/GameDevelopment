@@ -234,7 +234,6 @@
     <Compile Include="Assets\Scripts\Player\CameraFollow.cs" />
     <Compile Include="Assets\Scripts\PlayerController.cs" />
     <Compile Include="Assets\Scripts\PlayerHealth.cs" />
-    <Compile Include="Assets\Scripts\SystemGUI\MenuGUI.cs" />
     <Compile Include="Assets\Scripts\SystemGUI\RankingPlayer.cs" />
     <Compile Include="Assets\Scripts\Ranking.cs" />
     <Compile Include="Assets\Scripts\ScorePlayer.cs" />

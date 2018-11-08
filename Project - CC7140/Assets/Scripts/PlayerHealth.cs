@@ -22,7 +22,9 @@ namespace Assets.Scripts
         public Sprite emptyHeart;
 
         RankingPlayer scrPlayer = new RankingPlayer();
-
+        
+        PlayerController pc = new PlayerController();
+        
         private void Awake(){
             health = 3;
         }
@@ -41,7 +43,7 @@ namespace Assets.Scripts
             }           
             
             if(health == 0){
-                scrPlayer.SaveHighScore("NAME",1);
+                scrPlayer.EndScore(pc.namePerson,ScorePlayer.scorePoints);
                 SceneManager.LoadScene(2);
             }
         }
