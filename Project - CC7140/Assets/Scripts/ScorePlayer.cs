@@ -11,6 +11,7 @@ namespace Assets.Scripts
 {
     public class ScorePlayer : MonoBehaviour{
 
+        RankingPlayer ranking = new RankingPlayer();
         public static int scorePoints;
         Text text;
 
@@ -23,5 +24,10 @@ namespace Assets.Scripts
             text.text = "Score " + scorePoints;
         }
 
-    }
+        public void setScore(){
+            Debug.Log("HERE !!!!!");
+            scorePoints *= 0;
+            ranking.DefaultScore();
+        }
+     }
 }

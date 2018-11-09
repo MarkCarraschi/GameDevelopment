@@ -18,6 +18,7 @@ public class PlayerController : MonoBehaviour {
     float jumpPower = 5;
     Animator anim;
 
+    RankingPlayer ranking = new RankingPlayer();
     PlayerHealth healtCharacter = new PlayerHealth();
     int damageSpike = 1;
 
@@ -39,9 +40,8 @@ public class PlayerController : MonoBehaviour {
             Debug.Log("SCORE POINT: " + ScorePlayer.scorePoints);
         }
 
-        if (collision.gameObject.CompareTag("Cristal"))
-        {
-
+        if (collision.gameObject.CompareTag("Cristal")){
+            ranking.EndScore(ScorePlayer.scorePoints);
             SceneManager.LoadScene(4);
         }
 

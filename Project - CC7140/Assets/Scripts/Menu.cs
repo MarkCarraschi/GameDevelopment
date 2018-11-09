@@ -3,10 +3,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
+using Assets.Scripts;
 
 public class Menu : MonoBehaviour {
 
     InputField name;
+    ScorePlayer sc = new ScorePlayer();
 
     public void PlayGame(){
         SceneManager.LoadScene(3);
@@ -14,17 +16,21 @@ public class Menu : MonoBehaviour {
     }
 
     public void QuitGame(){
-        //Debug.Log("Finalizou");
         Application.Quit();
     }
     
-    public void PlayerLoad(){
-        //name = GetComponent<InputField>();
-        //Ranking.nomeNPlayer = name.text;
+    public void PlayerRanking(){
+        SceneManager.LoadScene(5);
+        Time.timeScale = 1f;
     }
 
     public void ReturnToMenu(){
         SceneManager.LoadScene(0);
         Time.timeScale = 1f;
+    }
+
+    public void setDefault(){
+        sc.setScore();
+
     }
 }

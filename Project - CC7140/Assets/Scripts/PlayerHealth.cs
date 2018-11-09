@@ -41,7 +41,7 @@ namespace Assets.Scripts
             }           
             
             if(health == 0){
-                scrPlayer.SaveHighScore("NAME",1);
+                scrPlayer.EndScore(ScorePlayer.scorePoints);
                 SceneManager.LoadScene(2);
             }
         }
